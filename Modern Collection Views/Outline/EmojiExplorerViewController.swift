@@ -66,7 +66,7 @@ extension EmojiExplorerViewController {
     /// - Tag: CreateFullLayout
     func createLayout() -> UICollectionViewLayout {
         
-        let sectionProvider = { (sectionIndex: Int, layoutEnvironment: NSCollectionLayoutEnvironment) -> NSCollectionLayoutSection? in
+        let sectionProvider = { [weak self] (sectionIndex: Int, layoutEnvironment: NSCollectionLayoutEnvironment) -> NSCollectionLayoutSection? in
             
             guard let sectionKind = Section(rawValue: sectionIndex) else { return nil }
             
