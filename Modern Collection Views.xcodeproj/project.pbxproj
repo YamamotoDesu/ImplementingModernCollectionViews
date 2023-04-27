@@ -76,7 +76,7 @@
 		FD65E1822276394000F8AF46 /* MountainsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD65E1812276394000F8AF46 /* MountainsViewController.swift */; };
 		FD65E18422763A4900F8AF46 /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD65E18322763A4900F8AF46 /* LabelCell.swift */; };
 		FD65E1882276444F00F8AF46 /* ItemBadgeSupplementaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD65E1872276444F00F8AF46 /* ItemBadgeSupplementaryViewController.swift */; };
-		FD65E18A227646ED00F8AF46 /* BadgeSupplementrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD65E189227646ED00F8AF46 /* BadgeSupplementrayView.swift */; };
+		FD65E18A227646ED00F8AF46 /* BadgeSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD65E189227646ED00F8AF46 /* BadgeSupplementaryView.swift */; };
 		FD74C13C2287DEC400B3A8EE /* InsertionSortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD74C13B2287DEC400B3A8EE /* InsertionSortArray.swift */; };
 		FD74C13E2287E99600B3A8EE /* InsertionSortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD74C13D2287E99600B3A8EE /* InsertionSortViewController.swift */; };
 		FD934DCF226FD6B70032CFFE /* InsetItemsGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD934DCE226FD6B70032CFFE /* InsetItemsGridViewController.swift */; };
@@ -179,7 +179,7 @@
 		FD65E1812276394000F8AF46 /* MountainsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MountainsViewController.swift; sourceTree = "<group>"; };
 		FD65E18322763A4900F8AF46 /* LabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
 		FD65E1872276444F00F8AF46 /* ItemBadgeSupplementaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemBadgeSupplementaryViewController.swift; sourceTree = "<group>"; };
-		FD65E189227646ED00F8AF46 /* BadgeSupplementrayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSupplementrayView.swift; sourceTree = "<group>"; };
+		FD65E189227646ED00F8AF46 /* BadgeSupplementaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSupplementaryView.swift; sourceTree = "<group>"; };
 		FD74C13B2287DEC400B3A8EE /* InsertionSortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSortArray.swift; sourceTree = "<group>"; };
 		FD74C13D2287E99600B3A8EE /* InsertionSortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSortViewController.swift; sourceTree = "<group>"; };
 		FD934DCE226FD6B70032CFFE /* InsetItemsGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetItemsGridViewController.swift; sourceTree = "<group>"; };
@@ -450,7 +450,7 @@
 				FD6007E7227E81EF00AC371F /* ConferenceNewsFeedCell.swift */,
 				FDCE36512268FDB800F3035B /* TitleSupplementaryView.swift */,
 				FD9671C32268F07400301EBB /* TextCell.swift */,
-				FD65E189227646ED00F8AF46 /* BadgeSupplementrayView.swift */,
+				FD65E189227646ED00F8AF46 /* BadgeSupplementaryView.swift */,
 				FDCFA2982286995D00D658EB /* SectionBackgroundDecorationView.swift */,
 			);
 			path = "Cells and Supplementary Views";
@@ -691,7 +691,7 @@
 				379E24DC2489E53B0040C9B5 /* CustomCellListViewController.swift in Sources */,
 				FD65E17722761AFA00F8AF46 /* NestedGroupsViewController.swift in Sources */,
 				FD000CBA22F0E68100AE3B95 /* TableViewEditingViewController.swift in Sources */,
-				FD65E18A227646ED00F8AF46 /* BadgeSupplementrayView.swift in Sources */,
+				FD65E18A227646ED00F8AF46 /* BadgeSupplementaryView.swift in Sources */,
 				FD6007E6227E7E0000AC371F /* ConferenceNewsController.swift in Sources */,
 				FDCFA2972286987600D658EB /* SectionDecorationViewController.swift in Sources */,
 				FD65E17B22762ADB00F8AF46 /* OrthogonalScrollBehaviorViewController.swift in Sources */,
@@ -745,6 +745,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Modern Collection Views Mac/Modern Collection Views Mac.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
@@ -772,6 +773,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Modern Collection Views Mac/Modern Collection Views Mac.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;

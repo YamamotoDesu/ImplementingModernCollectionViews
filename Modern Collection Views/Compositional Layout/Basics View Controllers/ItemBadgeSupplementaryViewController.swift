@@ -1,5 +1,5 @@
 /*
-See LICENSE folder for this sample’s licensing information.
+See the LICENSE.txt file for this sample’s licensing information.
 
 Abstract:
 Shows how to use NSCollectionLayoutSupplementaryItems to badge items
@@ -84,7 +84,7 @@ extension ItemBadgeSupplementaryViewController {
         }
         
         let supplementaryRegistration = UICollectionView.SupplementaryRegistration
-        <BadgeSupplementaryView>(elementKind: BadgeSupplementaryView.reuseIdentifier) {
+        <BadgeSupplementaryView>(elementKind: ItemBadgeSupplementaryViewController.badgeElementKind) {
             (badgeView, string, indexPath) in
             guard let model = self.dataSource.itemIdentifier(for: indexPath) else { return }
             let hasBadgeCount = model.badgeCount > 0
